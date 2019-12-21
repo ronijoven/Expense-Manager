@@ -1,0 +1,176 @@
+.skin-purple .wrapper, .skin-purple .main-sidebar, .skin-purple .left-side  {
+    background: #134F5C;
+}
+.skin-purple .main-header .navbar, .skin-purple .main-header {
+    background: #fff;
+}
+.main-header {
+    border-bottom: 1px solid grey;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+.main-sidebar {
+    padding-top: 2em;
+}
+.user-panel {
+    height: 7em;
+}
+.content-wrapper {
+     background: #fff;
+ }
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+.user-panel > .info {
+    padding-left: 1em;
+    left:0px;
+}
+.d-block {
+    font-size: 1.2em !important;
+}
+.sidebar-toggle, .panel-heading {
+    display:none;
+}
+.main-header .navbar {
+    background: #fff;
+}
+.breadcrumb {
+    display: inline;
+    background: transparent;
+}
+.row-title {
+    padding-bottom: 3em;
+    margin-top: 2em;
+}
+.row-title-label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.form-control {
+    display: inline;
+}
+
+.form-label {
+    display:inline-block;
+    width: 25%
+}
+/* Modal Style */
+.full-height {
+    min-height: 100vh;
+}
+#vue-wrapper {
+    position: absolute;
+    width: 100%;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    width: 50%;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+.searchable-fields {
+    padding-left:5px;
+}
+.searchable-link {
+    padding:0 5px 0 5px;
+}
+.searchable-link:hover   {
+    cursor: pointer;
+    background: #eaeaea;
+}
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
